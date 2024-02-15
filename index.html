@@ -9,7 +9,6 @@
     <script src="js/script.js"></script>
 </head>
 <body>
-    <!-- kasih header aja buat nilai tambahan -->
     <header id="navigation-bar">
         <img src="assets/calculatorTemperature.png" id="logo">
         <nav id="navigation">
@@ -18,9 +17,10 @@
             <a href="#judul-rumus">Lihat Rumus</a>
         </nav>
     </header>
-    <h1 style="text-align: center; margin-top: 100px; margin-bottom: 50px;">Temperature Calculator</h1>
-    <p style="color: rgb(71, 79, 122); text-align: center; margin-top: 30px; margin-bottom: 10px;">Masukkan suhu derajat <span class="celcius">Celcius (&deg;C)</span> ke kotak dibawah,</p>
-    <p style="color: rgb(71, 79, 122); text-align: center; margin-top: 10px; margin-bottom: 10px;">lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk <span class="fahrenheit">Fahrenheit (&deg;F)</span></p>
+    <h1 id="page-title">Temperature Calculator</h1>
+    <p class="instruction-text">Masukkan suhu derajat <span class="celcius">Celcius (&deg;C)</span> ke kotak dibawah,</p>
+    <p class="instruction-text">lalu klik tombol Konversi untuk mendapatkan hasil konversi dalam bentuk <span class="fahrenheit">Fahrenheit (&deg;F)</span></p>
+    <br>
     <div class="input-output">
         <div class="input-section">
             <label for="input-field" class="celcius">Celcius (&deg;C)</label>
@@ -30,7 +30,6 @@
         </div>
         <div class="input-section" >
             <label for="input-field" class="fahrenheit">Fahrenheit (&deg;F)</label>
-            <!-- for ga terlalu penting -->
             <input type="number" class="input-field" readonly="readonly" id="output-form">
             
         </div>
@@ -54,7 +53,7 @@
 
         <div class="rumus-box">
     
-            <h3 id="judul-rumus" style="text-align: center;">Cara Konversi Dari <span class="celcius">Celcius (&deg;C)</span> ke <span class="fahrenheit">Fahrenheit (&deg;F)</span></h3>
+            <h3 id="judul-rumus">Cara Konversi Dari <span class="celcius">Celcius (&deg;C)</span> ke <span class="fahrenheit">Fahrenheit (&deg;F)</span></h3>
             <hr id="line" >
             <p class="text">Suhu <span class="italic">S</span> dalam derajat <span class="fahrenheit">Fahrenheit (&deg;F)</span> sama dengan suhu <span class="italic">S</span> dalam derajat <span class="celcius">Celcius (&deg;C)</span> <span id="rumus-text">kali 9/5 tambah 32</span>.</p>
             <div class="rumus"><span class="italic">S</span><span class="sub"><span class="fahrenheitSymbol">(&deg;F)</span></span> = (<span class="italic">S</span><span class="sub"><span class="celciusSymbol">(&deg;C)</span></span> <span id="rumus-akhir1">x 9/5) + 32</span></div>

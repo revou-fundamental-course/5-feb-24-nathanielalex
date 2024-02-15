@@ -42,8 +42,6 @@ body{
     text-decoration: none;
     /* hapusin underline */
     padding-right: 15px;
-    /* margin-top: 8px;
-    margin-right: 12px; */
     background-color: white;
 }
 
@@ -167,6 +165,7 @@ body{
     margin-left: 10px;
     margin-bottom: 15px;
     color: #2d2d2d;
+    text-align: center;
 }
 
 .text{
@@ -184,4 +183,19 @@ body{
     flex-direction: column;
     height: 200px;
     border-top: rgb(71, 79, 122) 3px solid;
+}
+
+#page-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+
+.instruction-text{
+    color: rgb(71, 79, 122);
+    text-align: center;
+    
+    margin-bottom: 10px;
+
 }
