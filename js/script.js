@@ -61,6 +61,7 @@ function reverse() {
         document.getElementById("rumus-text").innerHTML  = "kurang 32 lalu kali 5/9";
         fahrenheitInput = 0;
     }
+    reset();
     
 }
 

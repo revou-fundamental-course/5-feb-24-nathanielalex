@@ -131,8 +131,9 @@ body{
 }
 
 #line{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid rgb(229, 59, 59);
 }
 
 .calculate-area{
@@ -143,11 +144,12 @@ body{
 .rumus-box{
     width: 60vw;
     height: 350px;
-    border: 3px solid black;
+    border: 3px solid rgb(229, 59, 59);
     margin: 8px 8px 100px 8px;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    border-radius: 50px;
 }
 
 .rumus-area{
@@ -157,18 +159,21 @@ body{
 
 .rumus{
     text-align: center;
+    color: #2d2d2d;
 }
 
 #judul-rumus{
     margin-top: 10px;
     margin-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    color: #2d2d2d;
 }
 
 .text{
     margin: 20px 30px 20px 30px;
     font-size: 20px;
     text-align: center;
+    color: #2d2d2d;
 }
 
 .footer-area{
