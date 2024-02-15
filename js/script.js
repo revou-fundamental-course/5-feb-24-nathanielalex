@@ -1,3 +1,24 @@
+    const inputField = document.getElementsByClassName("input-field")[0];
+    // const result = document.getElementById("result"); 
+    const buttonConvert = document.getElementsByClassName("my-button")[0];
+
+    inputField.addEventListener('input', function(){
+        var inputValue = inputField.value;
+        if(validateInteger(inputValue)){
+            buttonConvert.disabled = false;
+            buttonConvert.style.backgroundColor = '';
+        } else {
+            buttonConvert.disabled = true;
+            buttonConvert.style.backgroundColor = 'red'; 
+        }
+    });
+
+    function validateInteger(userInput){
+        const integerRegex = /^-?\d+$/;
+        return integerRegex.test(userInput);
+    }
+    
+    
     var fahrenheitInput = 1;
     
     function calculate() {
